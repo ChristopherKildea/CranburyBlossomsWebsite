@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.left-column {
+    flex: 7;
+    background-color: #f0f0f0;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.right-column {
+    flex: 3;
+    background-color: #d0d0d0;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.inner-content {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+}

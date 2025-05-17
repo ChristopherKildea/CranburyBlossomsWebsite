@@ -1,0 +1,31 @@
+.navbar {
+    background-color: #000000;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%
+}
+
+
+
+.navbar-title a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.87);
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+
+}
+
+.navbar-brand a {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgba(179, 179, 179, 0.87);
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+
+}
