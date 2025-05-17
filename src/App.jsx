@@ -3,8 +3,10 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import NavBar from './components/NavBar'
-import HeroImage from './components/HeroImage'
-import ContentSection from './components/ContentSection'
+import Home from './pages/Home'
+import Deliveries from './pages/Deliveries'
+import { Routes, Route } from 'react-router-dom'
+
 
 
 
@@ -22,10 +24,14 @@ function App() {
 
 
       <NavBar />
-      <HeroImage />
-      <ContentSection />
+      {/* <Home /> */}
 
-
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/deliveries" element={<Deliveries />} />
+        </Routes>
+      </main>
 
 
 

@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name": "Rose Bouquet",
+        "price": 29.99,
+        "description": "A beautiful bouquet of fresh red roses.",
+        "image": "https://assets.eflorist.com/assets/products/PHR_/TEV55-5A.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Sunflower Bundle",
+        "price": 19.99,
+        "description": "Bright sunflowers to lighten up your day.",
+        "image": "https://assets.eflorist.com/assets/products/PHR_/T46-1A.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Tulip Arrangement",
+        "price": 24.99,
+        "description": "Colorful tulips arranged elegantly.",
+        "image": "https://assets.eflorist.com/assets/products/PHR_/TEV12-5A.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Daisy Delight",
+        "price": 15.99,
+        "description": "A cheerful arrangement of fresh white and yellow daisies.",
+        "image": "https://assets.eflorist.com/assets/products/PHR_/T25V110A.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Lavender Love",
+        "price": 34.99,
+        "description": "A calming bouquet of fresh lavender and baby’s breath.",
+        "image": "https://assets.eflorist.com/assets/products/PHR_/T128-2A.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Orchid Elegance",
+        "price": 49.99,
+        "description": "A stunning orchid arrangement perfect for special occasions.",
+        "image": "https://assets.eflorist.com/assets/products/PHR_/T10-3A.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Peony Perfection",
+        "price": 39.99,
+        "description": "Soft pink peonies in a delicate glass vase.",
+        "image": "https://assets.eflorist.com/assets/products/PHR_/T211-1A.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Garden Mix",
+        "price": 27.99,
+        "description": "A vibrant mix of garden blooms including lilies and carnations.",
+        "image": "https://assets.eflorist.com/assets/products/PHR_/T12Z107A.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Lily Luxury",
+        "price": 42.99,
+        "description": "An exquisite collection of white lilies and greenery.",
+        "image": "https://assets.eflorist.com/assets/products/PHR_/TEV51-1A.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Wildflower Wonder",
+        "price": 18.99,
+        "description": "A rustic bunch of colorful wildflowers from the countryside.",
+        "image": "https://assets.eflorist.com/assets/products/PHR_/T12Z103A.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Sunset Roses",
+        "price": 32.99,
+        "description": "A captivating bouquet of orange, red, and yellow roses.",
+        "image": "https://assets.eflorist.com/assets/products/PHR_/T27-2A.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Spring Bliss",
+        "price": 22.99,
+        "description": "Pastel tulips and daffodils to welcome the new season.",
+        "image": "https://assets.eflorist.com/assets/products/PHR_/T95-2A.jpg"
+    }   
+]

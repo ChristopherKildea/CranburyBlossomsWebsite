@@ -5,7 +5,7 @@ import "../css/Navbar.css"
 function NavBar() {
     return <nav className="navbar">
 
-    
+
 
 
         <div className="navbar-brand">
@@ -13,7 +13,7 @@ function NavBar() {
         </div>
 
         <div className="navbar-brand">
-            <Link to="/">Delivery</Link>
+            <Link to="/Deliveries">Delivery</Link>
         </div>
 
         <div className="navbar-title">
