@@ -6,6 +6,7 @@ import NavBar from './components/NavBar'
 import Home from './pages/Home'
 import Deliveries from './pages/Deliveries'
 import { Routes, Route } from 'react-router-dom'
+import Footer from './components/Footer'
 
 
 
@@ -34,7 +35,7 @@ function App() {
       </main>
 
 
-
+      <Footer />
 
 
     </>

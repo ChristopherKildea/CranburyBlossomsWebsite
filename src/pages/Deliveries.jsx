@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import FlowerCard from '../components/FlowerCard';
+import "../css/Deliveries.css"
 
 const Deliveries = () => {
     const [flowers, setFlowers] = useState([]);
@@ -12,12 +13,14 @@ const Deliveries = () => {
 
     return (
 
-
-        <div>
-            {flowers.map((flower) => (
-                <FlowerCard flower={flower} key={flower.id} />
-            ))}
+        <div className="flower-grid-container">
+            <div className="flower-grid">
+                {flowers.map((flower) => (
+                    <FlowerCard flower={flower} key={flower.id} />
+                ))}
+            </div>
         </div>
+
     );
 };
 

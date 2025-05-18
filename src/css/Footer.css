@@ -1,0 +1,31 @@
+.footer {
+    background-color: rgb(23, 23, 23);
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+
+.footer span {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+}
+
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.footer-contact {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    color: rgba(255, 255, 255, 0.7);
+    /* Slightly faded for contrast */
+}

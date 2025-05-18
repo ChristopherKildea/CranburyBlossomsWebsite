@@ -1,0 +1,21 @@
+.flower-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Three columns of equal width */
+    gap: 16px;
+    /* Space between the cards */
+    padding: 16px;
+}
+
+
+
+.flower-grid-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+    gap: 2rem;
+
+}

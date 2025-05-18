@@ -1,15 +1,14 @@
 import { Link } from "react-router-dom";
-import "../css/Navbar.css"
+import "../css/FlowerCard.css"
 
 
 function FlowerCard({ flower }) {
-    return <div>
+    return <div className="flower-card">
 
 
-        <img src={flower.image} alt={flower.name} width={100} />
-        <h2>{flower.name}</h2>
-        <p>${flower.price.toFixed(2)}</p>
-        <p>{flower.description}</p>
+        <img src={flower.image} alt={flower.name} style={{ width: '90%' }} />
+        <p className="flower-title">{flower.name}</p>
+        <p className="flower-price">${flower.price.toFixed(2)}</p>
 
 
     </div>
