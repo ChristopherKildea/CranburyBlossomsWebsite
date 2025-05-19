@@ -38,8 +38,8 @@ const ContentSection = () => {
 
 
                     <div className='button-row'>
-                        <button className='styled-button'>Wedding + Event</button>
-                        <button className='styled-button'>Wedding + Event</button>
+                        <button className='styled-button'>Bi-Weekly Subscription</button>
+                        <button className='styled-button'>One-Time Flower Delivery</button>
 
                     </div>
 
