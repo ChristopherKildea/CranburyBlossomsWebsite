@@ -9,7 +9,7 @@ const HeroImage = () => {
         <div className="hero-image-container">
             <img src={hero_image} className="hero-image" />
             <div className="hero-text">
-                <h2>Cranbury Blossoms</h2>
+                <h2>Cranberry Blossoms</h2>
                 <p>Wedding + Event Floral Design</p>
             </div>
         </div>

@@ -17,7 +17,7 @@ function NavBar() {
         </div>
 
         <div className="navbar-title">
-            <Link to="/">Cranbury Blossoms</Link>
+            <Link to="/">Cranberry Blossoms</Link>
         </div>
 
         <div className="navbar-brand">

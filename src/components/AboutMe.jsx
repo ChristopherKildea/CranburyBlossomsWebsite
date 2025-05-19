@@ -26,8 +26,8 @@ const ContentSection = () => {
 
 
                     <p style={{ color: 'rgba(0,0,0,.5)' }}>
-                        Hello! I’m Christopher Kildea, the proud owner of Cranbury Blossoms. My passion for flowers
-                        and creating beautiful arrangements has been at the heart of my journey. At Cranbury Blossoms,
+                        Hello! I’m Christopher Kildea, the proud owner of Cranberry Blossoms. My passion for flowers
+                        and creating beautiful arrangements has been at the heart of my journey. At Cranberry Blossoms,
                         I believe that flowers have the power to brighten any moment, from weddings and celebrations to
                         everyday surprises. My team and I are dedicated to crafting unique, vibrant floral designs tailored to
                         each customer’s vision. Whether you're celebrating a special occasion or just looking to add a touch of nature’s

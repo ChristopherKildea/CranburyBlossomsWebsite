@@ -30,7 +30,7 @@ function NavBar() {
 
             <span>Cranburry, Nj</span>
             <span>(609) 585-3663</span>
-            <span>christopher@cranbury_flowers.com</span>
+            <span>christopher@cranberry_flowers.com</span>
 
 
         </div>

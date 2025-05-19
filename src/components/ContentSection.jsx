@@ -18,7 +18,7 @@ const ContentSection = () => {
                     </div>
 
 
-                    <p className='about-description'>Welcome to Cranbury Blossoms, your local florist dedicated to
+                    <p className='about-description'>Welcome to Cranberry Blossoms, your local florist dedicated to
                         bringing beauty and joy to Cranbury, NJ.
                         Our commitment to exceptional customer service and high-quality blooms ensures
                         that each bouquet is a memorable gift.</p>
@@ -26,10 +26,10 @@ const ContentSection = () => {
 
 
                     <p className='larger-description'>
-                        Whether you're celebrating a special event, expressing sympathy, or simply brightening someone's day, Cranbury Blossoms offers a
+                        Whether you're celebrating a special event, expressing sympathy, or simply brightening someone's day, Cranberry Blossoms offers a
                         wide selection of fresh flowers and custom designs to suit your needs. We provide reliable, same-day delivery throughout the Cranbury area,
                         making it easy to share heartfelt sentiments with loved ones.
-                        Experience the charm and elegance of our floral creations. Visit us in-store or explore our offerings online at cranburyblossoms.com. Let Cranbury Blossoms
+                        Experience the charm and elegance of our floral creations. Visit us in-store or explore our offerings online at cranberryblossoms.com. Let Cranberry Blossoms
                         be your first choice for flowers in Cranbury, NJ”
 
 
