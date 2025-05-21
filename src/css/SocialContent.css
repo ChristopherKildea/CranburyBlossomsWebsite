@@ -1,0 +1,50 @@
+.social-content {
+    background-color: rgb(23, 23, 23);
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.contact-info {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    padding: 2rem;
+    text-align: center;
+    width: 65%; 
+    min-width: 730px;
+    
+}
+
+.content-button {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin-top: 20px;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    border-style: solid
+    
+
+}
+
+
+.content-button-row {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+
+.search-button {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    padding: 16px 20px;
+    margin-top: 20px;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    border-style: solid;
+    background-color: #000000
+}

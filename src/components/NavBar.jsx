@@ -7,27 +7,28 @@ function NavBar() {
 
 
 
+        
+        
+            <div className="navbar-brand">
+                <Link to="/">Weddings + Events</Link>
+            </div>
 
-        <div className="navbar-brand">
-            <Link to="/">Weddings + Events</Link>
-        </div>
+            <div className="navbar-brand">
+                <Link to="/Deliveries">Delivery</Link>
+            </div>
 
-        <div className="navbar-brand">
-            <Link to="/Deliveries">Delivery</Link>
-        </div>
+            <div className="navbar-title">
+                <Link to="/">Cranberry Blossoms</Link>
+            </div>
 
-        <div className="navbar-title">
-            <Link to="/">Cranberry Blossoms</Link>
-        </div>
-
-        <div className="navbar-brand">
-            <Link to="/">Workshops</Link>
-        </div>
+            <div className="navbar-brand">
+                <Link to="/">Workshops</Link>
+            </div>
 
 
-        <div className="navbar-brand">
-            <Link to="/">Sign In</Link>
-        </div>
+            <div className="navbar-brand">
+                <Link to="/">Sign In</Link>
+            </div>
 
 
 

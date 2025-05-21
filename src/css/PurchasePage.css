@@ -1,0 +1,103 @@
+
+
+.purchase-page-container {
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+}
+
+
+.purchase-page-text-container > * {
+    margin-top: 1.5rem
+}
+
+.purchase-page-text-container em {
+    display: block;
+    margin-bottom: .5rem; /* or any size you want */
+}
+
+
+.purchase-page-text-container p,
+.purchase-page-text-container li {
+    color: rgba(0, 0, 0, .5);
+    font-size: 15px;
+}
+
+
+.dropdown-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem; /* adds spacing between label and select */
+    color: rgba(0, 0, 0, 0.5);
+    
+
+
+}
+
+.dropdown-group select {
+    width: fit-content;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+}
+
+
+.purchase-page-info {
+    margin-top: 10rem
+}
+
+.purchase-page-image {
+    margin-right: 3rem;
+}
+
+
+.delivery-info {
+  color: #666;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.delivery-info em {
+  font-weight: bold;
+  color: #888;
+}
+
+.delivery-info ul {
+  list-style-type: disc;
+  margin-left: 2rem;
+  padding-left: 0;
+
+}
+
+
+.purchase-button {
+    border-radius: 300px;
+    background-color: #272727;
+    padding: 1.5em 4em;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: .5px;
+}
+
+.quantity-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem; /* adds spacing between label and select */
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.quantity-group input {
+
+    width: 6rem;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 1px; 
+   
+
+    border-color: #ccc;
+    border-radius: 3px;
+    padding: 5px 10px;
+
+
+}

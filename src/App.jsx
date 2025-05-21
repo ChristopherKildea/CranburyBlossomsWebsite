@@ -7,7 +7,8 @@ import Home from './pages/Home'
 import Deliveries from './pages/Deliveries'
 import { Routes, Route } from 'react-router-dom'
 import Footer from './components/Footer'
-
+import SocialContent from './components/SocialContent'
+import PurchasePage from './pages/PurchasePage'
 
 
 
@@ -25,17 +26,21 @@ function App() {
 
 
       <NavBar />
-      {/* <Home /> */}
+
 
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/deliveries" element={<Deliveries />} />
+           <Route path="/purchase/:id" element={<PurchasePage />} />
         </Routes>
       </main>
 
 
-      <Footer />
+
+    <SocialContent />
+
+    <Footer />
 
 
     </>
