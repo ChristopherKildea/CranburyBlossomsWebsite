@@ -1,6 +1,8 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import "../css/PurchasePage.css"
+import Modal from "../components/Modal"
+
 
 
 
@@ -9,6 +11,7 @@ const PurchasePage = () => {
   const [flower, setFlower] = useState(null);
   const [selectedSize, setSelectedSize] = useState("");
   const [quantity, setQuantity] = useState(1);
+  const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     fetch("/data/flowers.json")
@@ -26,8 +29,8 @@ const PurchasePage = () => {
 
 const handlePurchase = async (e) => {
 
-
-    console.log("Purchased!", { selectedSize, quantity });
+    setIsOpen(true);
+    console.log("Opening modal!", { selectedSize, quantity });
     
 };
 
@@ -35,15 +38,19 @@ const handlePurchase = async (e) => {
   return (
     <div className="purchase-page-container">
 
+
+        
+
+
         <div className="purchase-page-image">
             <img src={flower.image} alt={flower.name} />
         </div>
 
-        <div>
 
-
-        </div>
         <div className="purchase-page-text-container">
+            
+        
+            <Modal open={isOpen} onClose={() => setIsOpen(false)}>Hiiiiiii!!!!</Modal>
             
             
             <h1>{flower.name}</h1>
