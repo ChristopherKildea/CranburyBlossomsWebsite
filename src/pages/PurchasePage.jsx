@@ -50,7 +50,7 @@ const handlePurchase = async (e) => {
         <div className="purchase-page-text-container">
             
         
-            <Modal open={isOpen} onClose={() => setIsOpen(false)}>Hiiiiiii!!!!</Modal>
+            <Modal open={isOpen} onClose={() => setIsOpen(false)}></Modal>
             
             
             <h1>{flower.name}</h1>
