@@ -66,3 +66,49 @@
 
 # Serverless artifacts (if accidentally included)
 frontend/.serverless/
+
+
+
+
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+
+# Django SQLite DB
+backend/db.sqlite3
+
+# Django migrations cache
+backend/**/migrations/__pycache__/
+backend/**/migrations/*.pyc
+
+# Optional: Ignore migrations completely (not recommended if working in a team)
+# backend/**/migrations/
+
+# Static & media files
+backend/static/
+backend/staticfiles/
+backend/media/
+
+# Local settings (if you use a non-tracked settings file)
+backend/settings_local.py
+*.env
+.env
+.env.*
+
+# Logs
+*.log
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
